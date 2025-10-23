@@ -1,0 +1,22 @@
+const form = document.getElementById("add-product-form");
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  
+  const name = document.getElementById("product-name").value;
+  const price = parseFloat(document.getElementById("product-price").value);
+  const imageFile = document.getElementById("product-image").files[0];
+
+  const storageRef = storage.ref("products/" + imageFile.name);
+  await storageRef.put(imageFile);
+  const imageUrl = await storageRef.getDownloadURL();
+
+  await db.collection("products").add({
+    name,
+    price,
+    imageUrl,
+    createdAt: firebase.firestore.FieldValue.serverTimestamp()
+  });
+
+  alert("Produs adăugat!");
+  form.reset();
+});

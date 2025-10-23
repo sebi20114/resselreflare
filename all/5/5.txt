@@ -1,0 +1,5 @@
+db.collection("sales").get().then((snapshot) => {
+  let total = 0;
+  snapshot.forEach(doc => total += doc.data().amount);
+  document.getElementById("wallet").textContent = total + " RON";
+});

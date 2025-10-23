@@ -1,0 +1,6 @@
+<form id="add-product-form">
+  <input type="text" id="product-name" placeholder="Nume produs" required>
+  <input type="number" id="product-price" placeholder="Preț" required>
+  <input type="file" id="product-image" required>
+  <button type="submit">Adaugă produs</button>
+</form>
