@@ -1,0 +1,92 @@
+[16:42, 23.10.2025] Sebi: <!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resell Reflare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Resell Reflare</h1>
+  <nav>
+    <a href="index.html">Acasă</a>
+    <a href="shop.html">Magazin</a>
+    <a href="cart.html">Coș</a>
+    <a href="contact.html">Contact</a>
+    <a href="admin.html">Admin</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Bun venit la Resell Reflare</h2>
+  <p>Descoperă produse moderne la prețuri avantajoase.</p>
+
+  <div class="products">
+    <div class="product">
+      <img src="images/produs1.jpg" alt="Produs 1">
+      <h3>Produs 1</h3>
+      <p>120 RON</p>
+      <button onclick="addToCart('Produs 1', 120)">Adaugă în coș</button>
+    </div>
+
+    <div class="product">
+      <img src="images/produs2.jpg" alt="Produs 2">
+      <h3>Produs 2</h3>
+      <p>200 RON</p>
+      <button onclick="addToCart('Produs 2', 200)">Adaugă în coș</button>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2025 Resell Reflare</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+[16:42, 23.10.2025] Sebi: <!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magazin - Resell Reflare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Resell Reflare</h1>
+  <nav>
+    <a href="index.html">Acasă</a>
+    <a href="shop.html">Magazin</a>
+    <a href="cart.html">Coș</a>
+    <a href="contact.html">Contact</a>
+    <a href="admin.html">Admin</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Toate produsele</h2>
+  <div class="products">
+    <div class="product">
+      <img src="images/produs1.jpg" alt="Produs 1">
+      <h3>Produs 1</h3>
+      <p>120 RON</p>
+      <button onclick="addToCart('Produs 1', 120)">Adaugă în coș</button>
+    </div>
+
+    <div class="product">
+      <img src="images/produs2.jpg" alt="Produs 2">
+      <h3>Produs 2</h3>
+      <p>200 RON</p>
+      <button onclick="addToCart('Produs 2', 200)">Adaugă în coș</button>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2025 Resell Reflare</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

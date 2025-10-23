@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Resell Reflare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Resell Reflare</h1>
+  <nav>
+    <a href="index.html">Acasă</a>
+    <a href="shop.html">Magazin</a>
+    <a href="cart.html">Coș</a>
+    <a href="contact.html">Contact</a>
+    <a href="admin.html">Admin</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Contactează-ne</h2>
+  <form>
+    <input type="text" placeholder="Nume" required>
+    <input type="email" placeholder="Email" required>
+    <input type="tel" placeholder="Telefon" required>
+    <textarea placeholder="Mesajul tău" required></textarea>
+    <button type="submit">Trimite</button>
+  </form>
+</main>
+
+<footer>
+  <p>&copy; 2025 Resell Reflare</p>
+</footer>
+</body>
+</html>

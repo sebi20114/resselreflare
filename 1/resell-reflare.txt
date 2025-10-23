@@ -1,0 +1,12 @@
+resell-reflare/
+│
+├── index.html
+├── shop.html
+├── cart.html
+├── contact.html
+├── admin.html
+├── style.css
+├── script.js
+└── images/
+    ├── produs1.jpg
+    └── produs2.jpg
